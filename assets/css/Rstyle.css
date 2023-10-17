@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+head{
+  padding:20px;
+}
+body{
+  background-image:url("../images/bgp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#img{
+  width:88px;
+  height:80px;
+  background: url(assets/images/be.jpg) 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:5px;
+  }
+.nav-bar{
+position:fixed;
+width: 100%;
+top:0;
+}
+.pa{
+  float:left;
+  margin-left:400px;
+  padding:30px;
+  color:rgb(22, 50, 112);
+  font-size:xx-large;
+}
+ol{
+  list-style-type: none;
+  overflow: hidden;
+  background-color:white;
+  width:100%; 
+  }
+.li{
+  float:right;
+  padding:20px 0px 0px 0px;
+  }
+.li a{
+  display: block;
+  color:  rgb(22, 50, 112);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .li a:hover{
+  background-color:gainsboro;
+  }
+ul {
+  list-style-type: none;
+  overflow: auto;
+  background-color: darkslategrey;
+  width:100%;
+  
+  }
+li {
+float: left;
+
+}
+
+li a {
+display: block;
+color: gainsboro;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: darkgray;
+border-radius:45px;
+}
+  .hello{
+    margin-right:30%;
+    margin-left:30%;
+    }
+    form{
+      background-color:darkslategrey;
+      padding:10px;
+      margin-top:5rem;
+      box-sizing: border-box;
+      width:600px;
+      height:550px;
+      border-radius:15px;
+  }
+  .clm1{
+    float:left;
+    width:25%;
+    margin-top:6px;
+}
+.clm2{
+    float:left;
+    width:75%;
+    margin-top:6px;
+}
+label{
+    padding:12px 0;
+    display:inline-block;
+    color:white;
+    font-size: 15px;
+}
+input[type="text"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 3px 0;
+  border: 2px solid darkslategrey;
+  border-radius: 4px;
+  resize:vertical;
+  background-color: white;
+}
+button{
+  padding: 8px 16px;
+   margin: 4px 2px;
+   float:right;
+    background-color:gray;
+    border-radius:4px;
+    cursor: pointer;
+    color:black;
+    width:120px;
+   } 
+.radio-inline{
+ cursor: pointer;
+}
+
+  
